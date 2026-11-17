@@ -1,0 +1,43 @@
+FONTLOG for SK Hand
+====================
+
+This file provides detailed information on the SK Hand font software.
+This information should be distributed along with the SK Hand fonts
+and any derivative works.
+
+
+Basic Font Information
+----------------------
+
+SK Hand is a handwritten font created from real handwriting by Supriya Khanna.
+It was digitized using Ductus (https://www.ductus.app/).
+
+The font covers Basic Latin (uppercase and lowercase), digits, common
+punctuation and symbols, and a selection of typographic extras including
+smart quotes, en/em dashes, and ellipsis.
+
+Design: Supriya Khanna
+
+
+Changelog
+---------
+
+2024-Nov-17 (Supriya Khanna) SK Hand v1.000
+- Initial release
+- Basic Latin character set (A-Z, a-z, 0-9)
+- Punctuation and common symbols
+- Typographic extras (smart quotes, dashes, ellipsis)
+- OTF, TTF, and WOFF2 formats
+
+
+Acknowledgements
+----------------
+
+If you make modifications, be sure to add your name (N),
+email (E), web-address (if you have one) (W), and description (D).
+This list is in alphabetical order.
+
+N: Supriya Khanna
+E: mesupriyakhanna@gmail.com
+W: -
+D: Original designer

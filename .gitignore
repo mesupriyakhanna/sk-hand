@@ -1,0 +1,24 @@
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Font source files (if using font editors)
+*.glyphs~
+*.vfb
+*.ufo/
+
+# Build artifacts
+build/
+dist/
+*.pyc
+__pycache__/
+node_modules/

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SK Hand — Font Specimen</title>
+<style>
+  @font-face {
+    font-family: 'SK Hand';
+    src: url('../fonts/woff2/SKHand-Regular.woff2') format('woff2'),
+         url('../fonts/ttf/SKHand-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  :root {
+    --bg: #fafaf8;
+    --fg: #1a1a1a;
+    --muted: #6b6b6b;
+    --border: #e0e0e0;
+    --accent: #2d5be3;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1a1a;
+      --fg: #f0f0ee;
+      --muted: #999;
+      --border: #333;
+      --accent: #6b8ff7;
+    }
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-family: 'SK Hand', cursive;
+    font-size: 3.5rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .subtitle {
+    color: var(--muted);
+    font-size: 0.875rem;
+    margin-bottom: 3rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .section {
+    margin-bottom: 2.5rem;
+  }
+
+  .section-title {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    margin-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.5rem;
+  }
+
+  .specimen {
+    font-family: 'SK Hand', cursive;
+    line-height: 1.6;
+  }
+
+  .size-72 { font-size: 72px; line-height: 1.2; }
+  .size-48 { font-size: 48px; line-height: 1.3; }
+  .size-36 { font-size: 36px; }
+  .size-24 { font-size: 24px; }
+  .size-18 { font-size: 18px; }
+  .size-14 { font-size: 14px; }
+
+  .alphabet {
+    font-family: 'SK Hand', cursive;
+    font-size: 2rem;
+    line-height: 1.8;
+    letter-spacing: 0.05em;
+    word-spacing: 0.3em;
+  }
+
+  .paragraph {
+    font-family: 'SK Hand', cursive;
+    font-size: 1.25rem;
+    line-height: 1.8;
+    max-width: 65ch;
+  }
+
+  .size-samples > div {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+  }
+
+  .size-label {
+    font-size: 0.7rem;
+    color: var(--muted);
+    min-width: 3rem;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+  }
+
+  .info-item {
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+  }
+
+  .info-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    margin-bottom: 0.25rem;
+  }
+
+  .info-value {
+    font-size: 1rem;
+  }
+</style>
+</head>
+<body>
+
+<h1>SK Hand</h1>
+<p class="subtitle">Handwritten font by Supriya Khanna &middot; Version 1.000 &middot; OFL 1.1</p>
+
+<div class="section">
+  <div class="section-title">Alphabet</div>
+  <div class="alphabet">
+    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z<br>
+    a b c d e f g h i j k l m n o p q r s t u v w x y z
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Numerals &amp; Symbols</div>
+  <div class="alphabet">
+    0 1 2 3 4 5 6 7 8 9<br>
+    ! @ # $ % ^ &amp; * ( ) - _ = + [ ] { } | ; : ' " , . &lt; &gt; ? /
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Size Samples</div>
+  <div class="size-samples">
+    <div><span class="size-label">72px</span> <span class="specimen size-72">Handwriting</span></div>
+    <div><span class="size-label">48px</span> <span class="specimen size-48">The quick brown fox</span></div>
+    <div><span class="size-label">36px</span> <span class="specimen size-36">jumps over the lazy dog</span></div>
+    <div><span class="size-label">24px</span> <span class="specimen size-24">Pack my box with five dozen liquor jugs.</span></div>
+    <div><span class="size-label">18px</span> <span class="specimen size-18">How vexingly quick daft zebras jump! The five boxing wizards jump quickly.</span></div>
+    <div><span class="size-label">14px</span> <span class="specimen size-14">Amazingly few discotheques provide jukeboxes. The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.</span></div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Paragraph</div>
+  <p class="paragraph">
+    Every person's handwriting tells a story. The slight slant of a letter,
+    the way a pen lifts between strokes, the unique curves that make each
+    hand unmistakable. SK Hand captures that spirit — a font born from real
+    ink on real paper, digitized to bring warmth and personality to screens
+    everywhere.
+  </p>
+</div>
+
+<div class="section">
+  <div class="section-title">Font Information</div>
+  <div class="info-grid">
+    <div class="info-item">
+      <div class="info-label">Family</div>
+      <div class="info-value">SK Hand</div>
+    </div>
+    <div class="info-item">
+      <div class="info-label">Style</div>
+      <div class="info-value">Regular</div>
+    </div>
+    <div class="info-item">
+      <div class="info-label">Version</div>
+      <div class="info-value">1.000</div>
+    </div>
+    <div class="info-item">
+      <div class="info-label">Glyphs</div>
+      <div class="info-value">99</div>
+    </div>
+    <div class="info-item">
+      <div class="info-label">License</div>
+      <div class="info-value">OFL 1.1</div>
+    </div>
+    <div class="info-item">
+      <div class="info-label">Designer</div>
+      <div class="info-value">Supriya Khanna</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

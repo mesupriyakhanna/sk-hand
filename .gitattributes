@@ -1,0 +1,17 @@
+# Font files are binary
+*.otf binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+
+# Images are binary
+*.png binary
+*.jpg binary
+*.gif binary
+*.svg binary
+
+# Normalize line endings for text files
+*.txt text
+*.md text
+*.css text
+*.html text
